@@ -1,7 +1,5 @@
 # Dynamic Data Table Manager
 
-
-
 A comprehensive, feature-rich data table management application built using **Next.js 14**, **Redux Toolkit**, and **Material-UI**. This project showcases advanced frontend development patterns, state management, and an interactive UI tailored for real-world use cases like admin dashboards and CRM tools.
 
 ---

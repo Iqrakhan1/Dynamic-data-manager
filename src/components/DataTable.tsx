@@ -464,20 +464,20 @@ export default function DataTable() {
               Add User
             </Button>
           </Grid>
-          <Grid item xs={6}>
+            <Grid item xs={6}>
             <Button
               fullWidth
               variant="outlined"
               sx={{ borderColor: darkMode ? '#fff' : '#470571', color: darkMode ? '#fff' : '#470571' }}
               startIcon={<ViewColumnIcon />}
               onClick={() => {
-                setColumnModalOpen(true);
-                setMobileMenuOpen(false);
+              setColumnModalOpen(true);
+              setMobileMenuOpen(false);
               }}
             >
               Manage Columns
             </Button>
-          </Grid>
+            </Grid>
           {editingRows.length > 0 && (
             <>
               <Grid item xs={6}>
