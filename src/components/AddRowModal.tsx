@@ -111,7 +111,7 @@ export default function AddRowModal({ open, onClose }: AddRowModalProps) {
                   fullWidth
                   margin="normal"
                   error={!!errors[column.id]}
-                  helperText={errors[column.id]?.message}
+                  // helperText={errors[column.id]?.message}
                   sx={{
                     '& .MuiInputLabel-root': {
                       color: darkMode ? '#fff' : 'inherit'
